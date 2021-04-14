@@ -89,7 +89,7 @@ window.addEventListener('load',() => {
      },
      created() {
         //  fetch('https://api.myjson.com/bins/11mb9u')
-        fetch('https://api.myjson.com/bins/1293hm')
+        fetch('/data.json')
          .then((res) => {return res.json()})
          .then((res)=> { 
              this.isLoading = false;         
